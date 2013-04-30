@@ -1,0 +1,25 @@
+#mycontent {
+  display: none;
+}
+
+#teacher_img{
+  float: left;
+  padding: 5px;
+}
+
+#msg{
+  float: right;
+  border: solid 1px #ccc;
+  padding: 5px;
+}
+
+#myclose{
+  clear: both;
+  float: right;
+}
+
+#log_meg_small{
+  height: 100px;
+  padding-left: 5px;
+  vertical-align: middle;
+}
