@@ -41,8 +41,9 @@ class block_login_info extends block_base {
     $message = $obj->getMessage();
 
     $base_url = $CFG->wwwroot.'/blocks/login_info/';
-
-    $device = get_device_type();
+    
+    $d_obj = core_useragent::instance();
+    $device = $d_obj->get_device_type();
     $jquery = <<<JQ
 <script type="text/javascript" src="{$base_url}js/jquery.js"></script>
 JQ;

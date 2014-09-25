@@ -20,7 +20,7 @@
  * @copyright 2012 Human Science Co., Ltd. Hiroshi Honda  {@link http://www.science.co.jp/}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$plugin->version = 2013043000;
+$plugin->version  = 2014092500;
 $plugin->requires = 2012062502;
 $plugin->release = 'login message';
-$plugin->maturity = MATURITY_RC;
+$plugin->maturity = MATURITY_STABLE;
